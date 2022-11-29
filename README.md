@@ -1,3 +1,6 @@
+# Decision Transformer for Robomimic
+(this is a course project for CS391R 2022)
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -12,10 +15,6 @@
   </ol>
 </details>
 
-
-# Decision Transformer for Robomimic
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 >
@@ -24,18 +23,13 @@ Decision Transformer reformulates offline reinforcement learning as a sequence m
 
 <!-- GETTING STARTED -->
 ## Getting Started
-This project requires a working version Pytorch, a working version of robomimic, and Mujoco.
+TODO
 
 
 ## Get the Datasets:
-Dataset download link: https://drive.google.com/drive/folders/1dHMUOSLUr6AwW3PETn1DQO9CWMklT
+Dataset download link: https://drive.google.com/drive/folders/1dHMUOSLUr6AwW3PETn1DQO9CWMklTuqy?usp=share_link
 
-```bash
-cd ~/robomimic/robomimic/scripts # or wherever robomimic was git cloned ...
-python download_datasets.py --tasks sim --dataset_types all --hdf5_types low_dim
-```
-should save to `robomimic/datasets`
-
+Download the file and place the `datasets/` folder in this repo. These datasets are generated with `robomimic` using the low dimensional state representations and dense reward information.
 
 ## Dataset Types
 
@@ -117,8 +111,8 @@ With this change, we altered the training data accordingly, as you can see in th
 <!-- CONTACT -->
 ## Contact
 
-Alex Chandler - alex.chandler@utexas.edu
+Alex Chandler - alex [dot] chandler [at] utexas.edu
 
-Jake Grigsby grigsby@cs.utexas.edu
+Jake Grigsby  - grigsby [at] cs.utexas.edu
 
-Omeed Tehrani omeed@cs.utexas.edu
+Omeed Tehrani - omeed [at] cs.utexas.edu
